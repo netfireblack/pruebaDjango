@@ -1,8 +1,6 @@
 from rest_framework import serializers
-from .models import Alumno
-from .models import Asignatura
-from .models import Nota
-from .models import Semestre
+from .models import Alumno, Asignatura, Nota, Semestre
+
 
 class AlumnoSerializer(serializers.ModelSerializer):
     class Meta:
